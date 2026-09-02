@@ -1,2 +1,32 @@
-[]
-
+[
+  {
+    "title": "MarinAX introduces a new generation of AI-assisted hull exploration",
+    "category": "Technology",
+    "date": "2026-08-22",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+    "image": "assets/media/images/news-hull-ai.jpg",
+    "image_alt": "Ocean currents from above",
+    "url": "#",
+    "published": true
+  },
+  {
+    "title": "Why fast flow prediction changes the design loop",
+    "category": "Research",
+    "date": "2026-07-08",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/media/images/news-cfd-ai.jpg",
+    "image_alt": "Detailed water flow",
+    "url": "#",
+    "published": true
+  },
+  {
+    "title": "Meet Agent MAX: an engineering partner that speaks your language",
+    "category": "Product",
+    "date": "2026-05-19",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/media/images/news-agent-max.jpg",
+    "image_alt": "Vessel crossing blue water",
+    "url": "#",
+    "published": true
+  }
+]

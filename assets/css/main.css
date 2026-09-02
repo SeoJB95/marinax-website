@@ -99,3 +99,14 @@
 .footer-dark{background:#ededed;border-color:#d5d5d5;color:#050505}
 @media (max-width:850px){.contact-page .site-nav{background:#fff}.form-panel{border-left:0;border-top:1px solid #dedede}}
 @media (max-width:560px){.stats article+article{border-left:0;border-top-color:#d2d2d2}}
+
+/* Bright glass navigation and calm blue feature surfaces */
+.site-header{background:rgba(255,255,255,.72);border-bottom:1px solid rgba(255,255,255,.78);box-shadow:0 8px 30px rgba(20,34,52,.07);backdrop-filter:blur(20px) saturate(145%);-webkit-backdrop-filter:blur(20px) saturate(145%)}
+.contact-page .site-header{background:rgba(255,255,255,.72);border-color:rgba(255,255,255,.78)}
+.section-agent{max-width:none;background:linear-gradient(135deg,#edf4ff 0%,#f8fafc 58%,#e8f0fb 100%);color:#050505;padding-left:max(var(--pad),calc((100vw - var(--max))/2));padding-right:max(var(--pad),calc((100vw - var(--max))/2));border-top:1px solid #dbe4ef;border-bottom:1px solid #dbe4ef}
+.section-agent .feature-copy>p:not(.eyebrow){color:#5f6874}.section-agent .feature-number{color:rgba(1,97,245,.09)}
+.section-agent .agent-prompt{background:rgba(255,255,255,.66);border-color:#c7d5e6;color:#263445;backdrop-filter:blur(12px)}
+.cta-light{background:linear-gradient(135deg,#eaf2fd,#f8fafc);color:#050505;border-top:1px solid #dbe4ef}
+.cta-light .circle-link{background:var(--brand-blue);color:#fff}
+.form-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
+.form-status{min-height:1.4em;margin-top:18px;color:#265f54;font-size:13px}

@@ -1,0 +1,46 @@
+media:
+  input: assets/media/images
+  output: assets/media/images
+  rename: safe
+  categories: [image]
+
+content:
+  - name: home
+    label: Landing page
+    type: file
+    path: data/home.json
+    format: json
+    fields:
+      - { name: hero_eyebrow, label: Hero eyebrow, type: string, required: true }
+      - { name: hero_title, label: Hero title, type: string, required: true, description: "Use <br> for a line break and <span>...</span> for the blue phrase." }
+      - { name: hero_description, label: Hero description, type: text, required: true }
+      - { name: hero_image, label: Hero image, type: image, required: true }
+      - { name: agent_title, label: Agent MAX title, type: string, required: true }
+      - { name: agent_description, label: Agent MAX description, type: text, required: true }
+      - { name: agent_image, label: Agent MAX image, type: image, required: true }
+      - { name: cta_title, label: Bottom call-to-action, type: string, required: true }
+
+  - name: about
+    label: About page
+    type: file
+    path: data/about.json
+    format: json
+    fields:
+      - { name: hero_title, label: Hero title, type: string, required: true }
+      - { name: hero_description, label: Hero description, type: text, required: true }
+
+  - name: news
+    label: News
+    type: file
+    path: data/news.json
+    format: json
+    list: true
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: category, label: Category, type: string, required: true }
+      - { name: date, label: Publication date, type: date, required: true }
+      - { name: summary, label: Summary, type: text, required: true }
+      - { name: image, label: Card image, type: image, required: true }
+      - { name: image_alt, label: Image description, type: string, required: true }
+      - { name: url, label: Link, type: string, required: false }
+      - { name: published, label: Published, type: boolean, required: true }

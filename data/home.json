@@ -1,0 +1,10 @@
+{
+  "hero_eyebrow": "AI × NAVAL ARCHITECTURE",
+  "hero_title": "Shape the vessel.<br><span>Rewrite the flow.</span>",
+  "hero_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Generate, predict, and validate high-performance hull forms in one continuous workflow.",
+  "hero_image": "assets/media/images/hero-maritime.jpg",
+  "agent_title": "Ask Agent MAX<br>Everything",
+  "agent_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turn engineering intent into actions, compare candidates, and understand every recommendation in natural language.",
+  "agent_image": "assets/media/images/agent-max.jpg",
+  "cta_title": "Start your first<br>hull form generation."
+}
