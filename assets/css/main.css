@@ -134,6 +134,7 @@
 .site-nav>a:not(.nav-cta){color:rgba(5,5,5,.76)}
 .site-nav>a:not(.nav-cta):hover,.site-nav>a.active:not(.nav-cta){color:#050505}
 .nav-cta{background:#050505;color:#fff;border-color:#050505;box-shadow:0 8px 22px rgba(5,5,5,.16)}
+.nav-cta [data-lucide]{display:block;width:16px;height:16px;flex:0 0 16px}
 .nav-cta:hover{background:var(--brand-blue);border-color:var(--brand-blue)}
 
 @media (max-width:850px){
