@@ -1,20 +1,101 @@
 {
-  "hero": {"eyebrow": "AI × SHIP DESIGN", "title": "Generate Hull Form.<br><span>In A Few Second</span>", "description": "Generate hull forms tailored to your requirements in seconds, complete with AI-predicted flow field information.", "image": "assets/media/images/hero-maritime.jpg", "image_alt": "Cargo vessel moving through open water", "primary_label": "Explore capabilities", "primary_link": "#capabilities", "secondary_label": "Request a demo", "secondary_link": "contact.html", "scroll_label": "Scroll to explore", "location_label": "Busan · Seoul · Global"},
-  "clients_intro": "Built for the people shaping tomorrow’s vessels",
-  "clients": ["SHIPYARDS", "NAVAL ARCHITECTS", "RESEARCH LABS", "SHIP OWNERS", "CLASS SOCIETIES"],
-  "capabilities": {"label": "01 — Capabilities", "title": "From a blank brief to a validated hull.", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna sed sem posuere luctus. One intelligent environment connects geometry, hydrodynamics, and engineering judgment.", "image": "assets/media/images/capabilities.jpg", "image_alt": "Commercial vessel at sea"},
-  "generate": {"eyebrow": "GENERATIVE DESIGN", "title": "Generate Hull Forms", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Explore thousands of feasible hull variations while preserving the constraints that matter.", "items": ["Parametric geometry", "Constraint-aware generation", "Instant design comparison"], "image": "assets/media/images/generate-hull.jpg", "image_alt": "Abstract water surface suggesting hull geometry", "caption": "GENERATE / ITERATE / SELECT"},
-  "prediction": {"eyebrow": "AI SURROGATE MODEL", "title": "Predict the Flow<br>in a Few Seconds", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Replace hours of repeated analysis with fast, trained predictions across the full flow field.", "metric": "< 10 sec", "metric_label": "Typical prediction time", "image": "assets/media/images/flow-prediction.jpg", "image_alt": "Blue water in motion", "caption": "PRESSURE / VELOCITY / WAVE"},
-  "integration": {"eyebrow": "ENGINEERING WORKFLOW", "title": "Perfect Integration<br>of CFD and AI", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Keep trusted solvers in the loop and move seamlessly between rapid exploration and high-fidelity validation.", "link_label": "How MarinAX works", "link_url": "about.html", "image": "assets/media/images/cfd-integration.jpg", "image_alt": "Aerial ocean currents resembling simulation contours", "caption": "VALIDATE / LEARN / IMPROVE"},
-  "agent": {"eyebrow": "CONVERSATIONAL ENGINEERING", "title": "Ask Agent MAX<br>Everything", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turn engineering intent into actions, compare candidates, and understand every recommendation in natural language.", "prompt": "“Compare the three lowest-resistance candidates.”", "image": "assets/media/images/agent-max.jpg", "image_alt": "Dynamic blue ocean texture", "caption": "ASK / REASON / EXECUTE"},
+  "hero": {
+    "eyebrow": "AI × SHIP DESIGN",
+    "title": "Generate Hull Form.<br><span>In A Few Second</span>",
+    "description": "Generate hull forms tailored to your requirements in seconds, complete with AI-predicted flow field information.",
+    "image": "assets/media/images/figure-1.png",
+    "image_alt": "Bulbous bow of large commercial vesse which is decorated by futuristic sparkles meaning Ai generation",
+    "primary_label": "Explore capabilities",
+    "primary_link": "#capabilities",
+    "secondary_label": "Request a demo",
+    "secondary_link": "contact.html",
+    "scroll_label": "Scroll to explore",
+    "location_label": "Busan · Houston · Global"
+  },
+  "clients_intro": "Built for the engineers in",
+  "clients": [
+    "SHIPYARDS",
+    "SHIP DESIGN COMPANY",
+    "UNIVERCITY",
+    "CLASSIFICATION SOCIETY"
+  ],
+  "capabilities": {
+    "label": "01 — Capabilities",
+    "title": "From a few main particulars, to full 3D hull form considering efficiency ",
+    "description": "One intelligent environment connects hull forms, hydrodynamics, and engineering judgment.",
+    "image": "assets/media/images/capabilities.jpg",
+    "image_alt": "Commercial vessel at sea"
+  },
+  "generate": {
+    "eyebrow": "GENERATIVE DESIGN",
+    "title": "Generate Hull Forms",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Explore thousands of feasible hull variations while preserving the constraints that matter.",
+    "items": [
+      "Parametric geometry",
+      "Constraint-aware generation",
+      "Instant design comparison"
+    ],
+    "image": "assets/media/images/generate-hull.jpg",
+    "image_alt": "Abstract water surface suggesting hull geometry",
+    "caption": "GENERATE / ITERATE / SELECT"
+  },
+  "prediction": {
+    "eyebrow": "AI SURROGATE MODEL",
+    "title": "Predict the Flow<br>in a Few Seconds",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Replace hours of repeated analysis with fast, trained predictions across the full flow field.",
+    "metric": "< 10 sec",
+    "metric_label": "Typical prediction time",
+    "image": "assets/media/images/flow-prediction.jpg",
+    "image_alt": "Blue water in motion",
+    "caption": "PRESSURE / VELOCITY / WAVE"
+  },
+  "integration": {
+    "eyebrow": "ENGINEERING WORKFLOW",
+    "title": "Perfect Integration<br>of CFD and AI",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Keep trusted solvers in the loop and move seamlessly between rapid exploration and high-fidelity validation.",
+    "link_label": "How MarinAX works",
+    "link_url": "about.html",
+    "image": "assets/media/images/cfd-integration.jpg",
+    "image_alt": "Aerial ocean currents resembling simulation contours",
+    "caption": "VALIDATE / LEARN / IMPROVE"
+  },
+  "agent": {
+    "eyebrow": "CONVERSATIONAL ENGINEERING",
+    "title": "Ask Agent MAX<br>Everything",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turn engineering intent into actions, compare candidates, and understand every recommendation in natural language.",
+    "prompt": "“Compare the three lowest-resistance candidates.”",
+    "image": "assets/media/images/agent-max.jpg",
+    "image_alt": "Dynamic blue ocean texture",
+    "caption": "ASK / REASON / EXECUTE"
+  },
   "faq_label": "FAQ",
   "faq_title": "Questions,<br>answered clearly.",
   "faqs": [
-    {"question": "What is MarinAX?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. MarinAX brings AI hull generation, flow prediction, and CFD validation into one engineering workflow."},
-    {"question": "Does it replace existing CFD tools?", "answer": "No. Lorem ipsum dolor sit amet. MarinAX accelerates exploration while preserving validated CFD tools for high-fidelity decisions."},
-    {"question": "Can we use our own hull data?", "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Data integration can be configured around the requirements of each organization."},
-    {"question": "How quickly can we generate a hull?", "answer": "Lorem ipsum dolor sit amet. Candidate generation and AI prediction can run in seconds, depending on the requested design space."},
-    {"question": "How do we start a pilot?", "answer": "Contact our team with your target vessel and design goals. We will shape a focused demonstration around your workflow."}
+    {
+      "question": "What is MarinAX?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. MarinAX brings AI hull generation, flow prediction, and CFD validation into one engineering workflow."
+    },
+    {
+      "question": "Does it replace existing CFD tools?",
+      "answer": "No. Lorem ipsum dolor sit amet. MarinAX accelerates exploration while preserving validated CFD tools for high-fidelity decisions."
+    },
+    {
+      "question": "Can we use our own hull data?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Data integration can be configured around the requirements of each organization."
+    },
+    {
+      "question": "How quickly can we generate a hull?",
+      "answer": "Lorem ipsum dolor sit amet. Candidate generation and AI prediction can run in seconds, depending on the requested design space."
+    },
+    {
+      "question": "How do we start a pilot?",
+      "answer": "Contact our team with your target vessel and design goals. We will shape a focused demonstration around your workflow."
+    }
   ],
-  "cta": {"eyebrow": "READY TO BEGIN?", "title": "Start your first<br>hull form generation.", "link": "contact.html", "link_label": "Contact MarinAX"}
+  "cta": {
+    "eyebrow": "READY TO BEGIN?",
+    "title": "Start your first<br>hull form generation.",
+    "link": "contact.html",
+    "link_label": "Contact MarinAX"
+  }
 }
