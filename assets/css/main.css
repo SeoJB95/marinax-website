@@ -158,3 +158,8 @@
 
 /* Reserve the scrollbar track before async news content renders */
 html{scrollbar-gutter:stable}
+
+/* Preserve the complete portrait hero image without cropping */
+.hero-visual{height:auto;min-height:0;overflow:visible;box-shadow:none}
+.hero-visual:after{display:none}
+.hero-visual img{width:100%;height:auto;object-fit:contain}
