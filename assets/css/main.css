@@ -110,3 +110,35 @@
 .cta-light .circle-link{background:var(--brand-blue);color:#fff}
 .form-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
 .form-status{min-height:1.4em;margin-top:18px;color:#265f54;font-size:13px}
+
+/* Floating glass navigation */
+.site-header{
+  width:min(calc(100% - 32px),1340px);
+  height:72px;
+  margin:14px auto 0;
+  padding:0 clamp(20px,3vw,38px);
+  top:14px;
+  border:1px solid rgba(255,255,255,.82);
+  border-radius:999px;
+  background:linear-gradient(135deg,rgba(255,255,255,.82),rgba(245,249,255,.62));
+  box-shadow:0 18px 50px rgba(5,20,38,.13),inset 0 1px 0 rgba(255,255,255,.92);
+  backdrop-filter:blur(22px) saturate(165%);
+  -webkit-backdrop-filter:blur(22px) saturate(165%);
+}
+.contact-page .site-header{
+  background:linear-gradient(135deg,rgba(255,255,255,.82),rgba(245,249,255,.62));
+  border-color:rgba(255,255,255,.82);
+}
+.site-header .brand img{width:clamp(142px,13vw,184px)}
+.site-nav{gap:clamp(22px,3vw,42px)}
+.site-nav>a:not(.nav-cta){color:rgba(5,5,5,.76)}
+.site-nav>a:not(.nav-cta):hover,.site-nav>a.active:not(.nav-cta){color:#050505}
+.nav-cta{background:#050505;color:#fff;border-color:#050505;box-shadow:0 8px 22px rgba(5,5,5,.16)}
+.nav-cta:hover{background:var(--brand-blue);border-color:var(--brand-blue)}
+
+@media (max-width:850px){
+  .site-header{width:calc(100% - 24px);height:64px;margin-top:12px;top:12px;padding:0 18px}
+  .site-header .brand img{width:140px}
+  .site-nav{left:0;right:0;top:calc(100% + 9px);padding:20px;border:1px solid rgba(255,255,255,.86);border-radius:24px;background:rgba(255,255,255,.88);box-shadow:0 20px 45px rgba(5,20,38,.14);backdrop-filter:blur(22px) saturate(155%);-webkit-backdrop-filter:blur(22px) saturate(155%)}
+  .contact-page .site-nav{background:rgba(255,255,255,.88)}
+}
