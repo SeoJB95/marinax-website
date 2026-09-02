@@ -163,3 +163,11 @@ html{scrollbar-gutter:stable}
 .hero-visual{height:auto;min-height:0;overflow:visible;box-shadow:none}
 .hero-visual:after{display:none}
 .hero-visual img{width:100%;height:auto;object-fit:contain}
+
+/* Match the feature layout while preserving the complete capabilities image */
+.capability-media{height:auto;min-height:0;overflow:visible}
+.capability-media img{height:auto;object-fit:contain}
+
+/* Give the uncropped hero artwork more room and bring it closer to the copy */
+.hero-grid{grid-template-columns:.88fr 1.12fr;gap:clamp(24px,4vw,60px)}
+@media (max-width:850px){.hero-grid{grid-template-columns:1fr}}
