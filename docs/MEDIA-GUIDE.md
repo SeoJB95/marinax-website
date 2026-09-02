@@ -2,6 +2,17 @@
 
 `assets/media/` is the only canonical location for media committed to this site.
 
+## Official brand identity
+
+The three approved CI logo variants live under `assets/media/brand/`:
+
+- `marinax-logo-v1.svg` — dark and deep-blue mark for light backgrounds
+- `marinax-logo-v2.svg` — white mark with gray edge for dark backgrounds
+- `marinax-logo-v3.svg` — solid-black mark for monochrome/light applications
+
+Do not recolor, distort, crop, or overwrite these source SVG files. Select the
+variant based on background contrast.
+
 ## Images you should replace directly
 
 | File | Used for | Recommended ratio | Recommended size |
@@ -27,4 +38,3 @@ Use lowercase kebab-case for additional files. Prefer `.jpg` for photography,
 - `documents/` — brochures, PDFs, and downloadable technical material
 
 Record the source and license of every third-party asset in `ATTRIBUTIONS.md`.
-
