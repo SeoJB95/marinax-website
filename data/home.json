@@ -4,7 +4,7 @@
     "title": "Generate Hull Form.<br><span>In A Few Second</span>",
     "description": "Generate hull forms tailored to your requirements in seconds, complete with AI-predicted flow field information.",
     "image": "assets/media/images/hero-16-9-1.png",
-    "image_alt": "Bulbous bow of large commercial vesse which is decorated by futuristic sparkles meaning Ai generation",
+    "image_alt": "MAX-Hull Dashboard",
     "primary_label": "Explore capabilities",
     "primary_link": "#capabilities",
     "secondary_label": "Request a demo",
@@ -21,9 +21,9 @@
   ],
   "capabilities": {
     "label": "01 — Capabilities",
-    "title": "From a few main particulars, to full 3D hull form considering efficiency ",
+    "title": "From a Few Numbers to an Efficient 3D Hull",
     "description": "One intelligent environment connects hull forms, hydrodynamics, and engineering judgment.",
-    "image": "assets/media/images/capabilities.jpg",
+    "image": "assets/media/images/capabilities-figure.png",
     "image_alt": "Commercial vessel at sea"
   },
   "generate": {
