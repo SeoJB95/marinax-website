@@ -1,4 +1,14 @@
 {
-  "hero_title": "Preserving craft.<br><span>Scaling intelligence.</span>",
-  "hero_description": "We put the craft of hull-form design—once passed down through apprenticeship—into AI."
+  "hero": {"eyebrow": "ABOUT MARINAX", "title": "Preserving craft.<br><span>Scaling intelligence.</span>", "description": "We put the craft of hull-form design—once passed down through apprenticeship—into AI."},
+  "mission": {"label": "Our mission", "title": "AI transformation,<br>from the heart of ship design.", "paragraph_1": "We begin with hull-form design, one of the core disciplines of naval architecture, and extend AI transformation across marine engineering—so that anyone can design an optimized vessel.", "paragraph_2": "MAX-Hull unifies 3D geometry generation informed by hydrodynamic performance, AI flow-field prediction that replaces hours of CFD, and trusted legacy systems. Together with Agent MAX, it enables ship design that is accurate, fast, and economical.", "image": "assets/media/images/about-mission.jpg", "image_alt": "Ship representing the future of naval architecture"},
+  "values_label": "What we value",
+  "values": [
+    {"icon": "wand-sparkles", "title": "Fully Automated<br>Hull Generation", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {"icon": "timer", "title": "Fast<br>Prediction", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {"icon": "badge-check", "title": "Validated<br>CFD Tools", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    {"icon": "bot", "title": "Work with<br>Agent", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+  ],
+  "stats": [{"value": 4000, "suffix": "+", "label": "Trained Hull Forms"}, {"value": 12000, "suffix": "+", "label": "Trained Flow Fields"}],
+  "cta": {"eyebrow": "DESIGN WITH INTELLIGENCE", "title": "Start Your First<br>AI-Powered Hull Design", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "button_label": "Ask for a demonstration", "button_link": "contact.html"},
+  "gallery": [{"image": "assets/media/images/about-slider-01.jpg", "alt": "Ship at sea"}, {"image": "assets/media/images/about-slider-02.jpg", "alt": "Ocean surface"}, {"image": "assets/media/images/about-slider-03.jpg", "alt": "Moving water"}]
 }

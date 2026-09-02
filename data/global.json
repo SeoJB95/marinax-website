@@ -1,0 +1,10 @@
+{
+  "header_logo": "assets/media/brand/marinax-logo-v1.svg",
+  "footer_logo": "assets/media/brand/marinax-logo-v2.svg",
+  "nav_product": "Product",
+  "nav_about": "About",
+  "nav_news": "News",
+  "nav_contact": "Contact",
+  "footer_tagline": "AI-powered naval architecture.",
+  "footer_copyright": "© 2026 MarinAX. All rights reserved."
+}

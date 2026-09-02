@@ -5,32 +5,192 @@ media:
   categories: [image]
 
 content:
+  - name: global
+    label: Global navigation & footer
+    type: file
+    path: data/global.json
+    format: json
+    fields:
+      - { name: header_logo, label: Header logo, type: image, required: true }
+      - { name: footer_logo, label: Footer logo, type: image, required: true }
+      - { name: nav_product, label: Product menu label, type: string, required: true }
+      - { name: nav_about, label: About menu label, type: string, required: true }
+      - { name: nav_news, label: News menu label, type: string, required: true }
+      - { name: nav_contact, label: Contact menu label, type: string, required: true }
+      - { name: footer_tagline, label: Footer tagline, type: string, required: true }
+      - { name: footer_copyright, label: Copyright, type: string, required: true }
+
   - name: home
-    label: Landing page
+    label: Landing page — all sections
     type: file
     path: data/home.json
     format: json
     fields:
-      - { name: hero_eyebrow, label: Hero eyebrow, type: string, required: true }
-      - { name: hero_title, label: Hero title, type: string, required: true, description: "Use <br> for a line break and <span>...</span> for the blue phrase." }
-      - { name: hero_description, label: Hero description, type: text, required: true }
-      - { name: hero_image, label: Hero image, type: image, required: true }
-      - { name: agent_title, label: Agent MAX title, type: string, required: true }
-      - { name: agent_description, label: Agent MAX description, type: text, required: true }
-      - { name: agent_image, label: Agent MAX image, type: image, required: true }
-      - { name: cta_title, label: Bottom call-to-action, type: string, required: true }
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true, description: "HTML: use <br> for line breaks and <span>...</span> for blue emphasis." }
+          - { name: description, label: Description, type: text, required: true }
+          - { name: image, label: Image, type: image, required: true }
+          - { name: image_alt, label: Image description, type: string, required: true }
+          - { name: primary_label, label: Primary button label, type: string, required: true }
+          - { name: primary_link, label: Primary button link, type: string, required: true }
+          - { name: secondary_label, label: Secondary button label, type: string, required: true }
+          - { name: secondary_link, label: Secondary button link, type: string, required: true }
+          - { name: scroll_label, label: Scroll label, type: string, required: true }
+          - { name: location_label, label: Location label, type: string, required: true }
+      - { name: clients_intro, label: Customer section intro, type: string, required: true }
+      - { name: clients, label: Customer types, type: string, list: true, required: true }
+      - name: capabilities
+        label: Capabilities
+        type: object
+        fields:
+          - { name: label, label: Section label, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+          - { name: image, label: Image, type: image, required: true }
+          - { name: image_alt, label: Image description, type: string, required: true }
+      - name: generate
+        label: Generate Hull Forms
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+          - { name: items, label: Feature bullets, type: string, list: true, required: true }
+          - { name: image, label: Image, type: image, required: true }
+          - { name: image_alt, label: Image description, type: string, required: true }
+          - { name: caption, label: Image caption, type: string, required: true }
+      - name: prediction
+        label: Predict the Flow
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+          - { name: metric, label: Metric, type: string, required: true }
+          - { name: metric_label, label: Metric description, type: string, required: true }
+          - { name: image, label: Image, type: image, required: true }
+          - { name: image_alt, label: Image description, type: string, required: true }
+          - { name: caption, label: Image caption, type: string, required: true }
+      - name: integration
+        label: CFD and AI Integration
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+          - { name: link_label, label: Link label, type: string, required: true }
+          - { name: link_url, label: Link URL, type: string, required: true }
+          - { name: image, label: Image, type: image, required: true }
+          - { name: image_alt, label: Image description, type: string, required: true }
+          - { name: caption, label: Image caption, type: string, required: true }
+      - name: agent
+        label: Agent MAX
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+          - { name: prompt, label: Example prompt, type: string, required: true }
+          - { name: image, label: Image, type: image, required: true }
+          - { name: image_alt, label: Image description, type: string, required: true }
+          - { name: caption, label: Image caption, type: string, required: true }
+      - { name: faq_label, label: FAQ section label, type: string, required: true }
+      - { name: faq_title, label: FAQ title, type: string, required: true }
+      - name: faqs
+        label: FAQ questions
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{question}" }
+        fields:
+          - { name: question, label: Question, type: string, required: true }
+          - { name: answer, label: Answer, type: text, required: true }
+      - name: cta
+        label: Bottom call-to-action
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: link, label: Link, type: string, required: true }
+          - { name: link_label, label: Accessible link label, type: string, required: true }
 
   - name: about
-    label: About page
+    label: About page — all sections
     type: file
     path: data/about.json
     format: json
     fields:
-      - { name: hero_title, label: Hero title, type: string, required: true }
-      - { name: hero_description, label: Hero description, type: text, required: true }
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+      - name: mission
+        label: Mission
+        type: object
+        fields:
+          - { name: label, label: Section label, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: paragraph_1, label: First paragraph, type: text, required: true }
+          - { name: paragraph_2, label: Second paragraph, type: text, required: true }
+          - { name: image, label: Image, type: image, required: true }
+          - { name: image_alt, label: Image description, type: string, required: true }
+      - { name: values_label, label: Values section label, type: string, required: true }
+      - name: values
+        label: Values
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{title}" }
+        fields:
+          - { name: icon, label: Lucide icon name, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+      - name: stats
+        label: Animated statistics
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{label}" }
+        fields:
+          - { name: value, label: Number, type: number, required: true }
+          - { name: suffix, label: Suffix, type: string, required: true }
+          - { name: label, label: Description, type: string, required: true }
+      - name: cta
+        label: Call-to-action
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+          - { name: button_label, label: Button label, type: string, required: true }
+          - { name: button_link, label: Button link, type: string, required: true }
+      - name: gallery
+        label: Sliding gallery
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{alt}" }
+        fields:
+          - { name: image, label: Image, type: image, required: true }
+          - { name: alt, label: Image description, type: string, required: true }
+
+  - name: news_page
+    label: News page heading
+    type: file
+    path: data/news-page.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Eyebrow, type: string, required: true }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: text, required: true }
+      - { name: empty_message, label: Empty-state message, type: string, required: true }
+      - { name: error_message, label: Error message, type: string, required: true }
 
   - name: news
-    label: News
+    label: News cards
     type: file
     path: data/news.json
     format: json
@@ -44,3 +204,26 @@ content:
       - { name: image_alt, label: Image description, type: string, required: true }
       - { name: url, label: Link, type: string, required: false }
       - { name: published, label: Published, type: boolean, required: true }
+
+  - name: contact
+    label: Contact page — all content
+    type: file
+    path: data/contact.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Eyebrow, type: string, required: true }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: text, required: true }
+      - { name: email_label, label: Email heading, type: string, required: true }
+      - { name: email, label: Recipient email, type: string, required: true }
+      - { name: location_label, label: Location heading, type: string, required: true }
+      - { name: location, label: Location, type: string, required: true }
+      - { name: name_label, label: Name field label, type: string, required: true }
+      - { name: name_placeholder, label: Name placeholder, type: string, required: true }
+      - { name: email_field_label, label: Email field label, type: string, required: true }
+      - { name: email_placeholder, label: Email placeholder, type: string, required: true }
+      - { name: message_label, label: Message field label, type: string, required: true }
+      - { name: message_placeholder, label: Message placeholder, type: string, required: true }
+      - { name: submit_label, label: Submit button, type: string, required: true }
+      - { name: form_note, label: Form note, type: text, required: true }
+      - { name: success_message, label: Success message, type: string, required: true }

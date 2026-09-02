@@ -1,0 +1,18 @@
+{
+  "eyebrow": "CONTACT MARINAX",
+  "title": "Let’s design<br>what’s next.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tell us about your vessel, workflow, or research goal.",
+  "email_label": "Email",
+  "email": "support@marinax.co.kr",
+  "location_label": "Location",
+  "location": "Busan, Republic of Korea",
+  "name_label": "Full Name",
+  "name_placeholder": "Your name",
+  "email_field_label": "Email Address",
+  "email_placeholder": "you@company.com",
+  "message_label": "Message",
+  "message_placeholder": "Tell us what you would like to explore",
+  "submit_label": "Send inquiry",
+  "form_note": "Your inquiry is securely relayed to support@marinax.co.kr. The first submission requires a one-time recipient confirmation.",
+  "success_message": "Thank you. Your inquiry has been sent."
+}
