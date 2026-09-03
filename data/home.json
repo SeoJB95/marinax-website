@@ -1,7 +1,7 @@
 {
   "hero": {
     "eyebrow": "AI × SHIP DESIGN",
-    "title": "Generate Hull Form.<br><span>In A Few Second</span>",
+    "title": "Generate Hull Form.<br><span>In A Few Seconds</span>",
     "description": "Generate hull forms tailored to your requirements in seconds, complete with AI-predicted flow field information.",
     "image": "assets/media/images/hero-16-9-2.png",
     "image_alt": "MAX-Hull Dashboard",
@@ -22,50 +22,50 @@
   "capabilities": {
     "label": "01 — Capabilities",
     "title": "From a Few Numbers to an Efficient 3D Hull",
-    "description": "One intelligent environment connects hull forms, hydrodynamics, and engineering judgment.",
+    "description": "From first intent to validated performance, MarinAX brings generative design, AI prediction, proven engineering tools, and expert guidance into one continuous hull-form workflow.",
     "image": "assets/media/images/capabilities-figure-1.png",
-    "image_alt": "Commercial vessel at sea"
+    "image_alt": "MarinAX project workspace showing a selected vessel, principal design parameters, a fair 3D hull surface, and key performance results together in one clean overview"
   },
   "generate": {
     "eyebrow": "GENERATIVE DESIGN",
     "title": "Generate Hull Forms",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Explore thousands of feasible hull variations while preserving the constraints that matter.",
+    "description": "Enter only a few principal parameters. MarinAX recommends the rest, translates your design intent through generative AI, and delivers a fair, performance-ready 3D hull form in under 20 seconds.",
     "items": [
-      "Parametric geometry",
+      "AI-recommended parameters",
       "Constraint-aware generation",
-      "Instant design comparison"
+      "Performance-ready in under 20 seconds"
     ],
     "image": "assets/media/images/generate-hull.jpg",
-    "image_alt": "Abstract water surface suggesting hull geometry",
+    "image_alt": "MarinAX generative-design screen with a compact principal-parameter panel on the left and a newly generated, smooth commercial-vessel hull displayed in the interactive 3D viewport on the right",
     "caption": "GENERATE / ITERATE / SELECT"
   },
   "prediction": {
     "eyebrow": "AI SURROGATE MODEL",
     "title": "Predict the Flow<br>in a Few Seconds",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Replace hours of repeated analysis with fast, trained predictions across the full flow field.",
-    "metric": "< 10 sec",
-    "metric_label": "Typical prediction time",
+    "description": "Evaluate any user-supplied or AI-generated hull at near-CFD fidelity. MarinAX predicts surface pressure, wall shear stress, and the complete wake distribution in under 30 seconds, then reveals every result in interactive 3D.",
+    "metric": "< 30 sec",
+    "metric_label": "Full-field prediction time",
     "image": "assets/media/images/flow-prediction.jpg",
-    "image_alt": "Blue water in motion",
-    "caption": "PRESSURE / VELOCITY / WAVE"
+    "image_alt": "MarinAX AI prediction viewer showing a hull colored by surface-pressure contours alongside a three-dimensional stern wake plane with velocity-deficit contours and selectable pressure, shear-stress, and wake result layers",
+    "caption": "PRESSURE / SHEAR / WAKE"
   },
   "integration": {
     "eyebrow": "ENGINEERING WORKFLOW",
-    "title": "Perfect Integration<br>of CFD and AI",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Keep trusted solvers in the loop and move seamlessly between rapid exploration and high-fidelity validation.",
+    "title": "One Integrated<br>Design Workflow",
+    "description": "Move seamlessly from generative AI and surrogate prediction to 2D lines, statistical performance estimates, hull-form modification, design alternatives, and high-fidelity CFD. MarinAX connects every tool and result in one environment built for hull-form optimization.",
     "link_label": "How MarinAX works",
     "link_url": "about.html",
     "image": "assets/media/images/cfd-integration.jpg",
-    "image_alt": "Aerial ocean currents resembling simulation contours",
-    "caption": "VALIDATE / LEARN / IMPROVE"
+    "image_alt": "A MarinAX project workflow showing connected stages for AI hull generation, 2D lines, statistical prediction, hull modification, design alternatives, AI surrogate analysis, CFD validation, and side-by-side optimization results",
+    "caption": "DESIGN / PREDICT / VALIDATE"
   },
   "agent": {
     "eyebrow": "CONVERSATIONAL ENGINEERING",
     "title": "Ask Agent MAX<br>Everything",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turn engineering intent into actions, compare candidates, and understand every recommendation in natural language.",
-    "prompt": "“Compare the three lowest-resistance candidates.”",
+    "description": "Design by conversation with MAX, an engineering agent carefully harnessed with the judgment of a hull-form specialist with 40 years of experience. Describe your goal and MAX orchestrates generation, prediction, comparison, and optimization across MarinAX for you.",
+    "prompt": "“Generate three efficient hull forms, predict their wake fields, and recommend the best candidate.”",
     "image": "assets/media/images/agent-max.jpg",
-    "image_alt": "Dynamic blue ocean texture",
+    "image_alt": "MarinAX conversational workspace with MAX responding to a natural-language design request while generated hull candidates, predicted performance metrics, and a recommended design appear in the adjacent engineering canvas",
     "caption": "ASK / REASON / EXECUTE"
   },
   "faq_label": "FAQ",
