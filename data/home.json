@@ -76,16 +76,20 @@
       "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. MarinAX brings AI hull generation, flow prediction, and CFD validation into one engineering workflow."
     },
     {
-      "question": "Does it replace existing CFD tools?",
-      "answer": "No. Lorem ipsum dolor sit amet. MarinAX accelerates exploration while preserving validated CFD tools for high-fidelity decisions."
-    },
-    {
-      "question": "Can we use our own hull data?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Data integration can be configured around the requirements of each organization."
+      "question": "How much hull-form and CFD data does MarinAX have, and how was it built?",
+      "answer": "MarinAX is founded on more than 4,000 systematically generated hull forms and over 12,000 CFD-derived flow-field datasets spanning broad ranges of block coefficient (CB), longitudinal center of buoyancy (LCB), and operating speed. \n\nThe foundation began at Pusan National University, where research Prof. Hwangbo Seung Myun (CEO) transformed decades of hull-design experience into a program capable of generating optimized 2D lines for different vessel types and speeds. Prof. Lee (COO), Prof. Hwangbo, and Dr. Seo (CTO) later expanded that engineering foundation through AI, using the program to construct the large-scale hull-form dataset and performing CFD analyses across diverse speed conditions."
     },
     {
       "question": "How quickly can we generate a hull?",
-      "answer": "Lorem ipsum dolor sit amet. Candidate generation and AI prediction can run in seconds, depending on the requested design space."
+      "answer": "MarinAX can generate a fair, performance-ready 3D hull form in under 20 seconds. Enter just a few principal parameters, and the system recommends the remaining inputs before generating the complete hull geometry."
+    },
+    {
+      "question": "Does it replace existing CFD tools?",
+      "answer": "No. MarinAX brings an unprecedented level of detail and interpretability to early-stage hull design, using its AI surrogate model to reveal surface pressure, wall shear stress, and wake distributions in seconds. These predictions give designers immediate hydrodynamic insight early in the design process, before design changes become costly. But every data-driven AI model can be wrong. For higher-confidence validation and accurate performance assessment, MarinAX also connects the design directly to high-fidelity CFD in just a few clicks. \n\nAI is fast and remarkably accurate; CFD remains essential for verification. MarinAX supports both in one seamless workflow."
+    },
+    {
+      "question": "Can we use our own hull data?",
+      "answer": "Yes. Upload your own hull form as an STL file and work with it directly in MarinAX. You can inspect the geometry in 3D, predict its pressure, shear stress, and wake distributions with the AI surrogate model, and proceed to high-fidelity CFD when further validation is needed. Uploaded hulls and AI-generated designs can be managed and compared within the same project, so your existing designs become part of the same integrated engineering workflow."
     },
     {
       "question": "How do we start a pilot?",
