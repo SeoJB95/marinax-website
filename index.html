@@ -91,8 +91,9 @@
 <img src="figures/fig.2.png" alt="Annotated MarinAX workspace showing Project Explorer, 3D Hull Viewer, hydrostatics, hull specification, and AI generation information" data-content="page.capabilities.image" data-content-attr="src" data-content-alt="page.capabilities.image_alt">
 </figure>
 </section>
-<section class="section feature">
-<div class="feature-copy">
+<section class="hull-scroll" data-hull-scroll>
+<div class="section feature hull-scroll__stage">
+<div class="feature-copy hull-scroll__copy">
 <p class="eyebrow" data-content="page.generate.eyebrow">
 </p>
 <h2 data-content="page.generate.title" data-content-html>
@@ -103,11 +104,14 @@
 </ul>
 <span class="feature-number">02</span>
 </div>
-<figure class="feature-media product-figure reveal">
-<img src="figures/fig.3.png" alt="MarinAX 3D hull viewer showing a generated commercial vessel hull with hydrostatics and specification details" data-content="page.generate.image" data-content-attr="src" data-content-alt="page.generate.image_alt">
+<figure class="feature-media hull-scroll__media">
+<canvas class="hull-scroll__canvas" aria-label="A sequence of AI-generated hull forms moving with page scroll"></canvas>
+<img class="hull-scroll__poster" src="assets/media/hull-carousel/poster.webp" alt="AI-generated ship hull forms" loading="eager">
+<div class="hull-scroll__loading" role="status" aria-live="polite">Loading hull forms</div>
 <figcaption data-content="page.generate.caption">
 </figcaption>
 </figure>
+</div>
 </section>
 <section class="section feature feature-reverse section-tint">
 <div class="feature-copy">

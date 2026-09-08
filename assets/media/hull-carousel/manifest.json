@@ -1,0 +1,23 @@
+{
+  "name": "MarinAX Hull Carousel",
+  "version": "1.3.0",
+  "frameCount": 120,
+  "framePattern": "frames/hull_%04d.webp",
+  "firstFrame": 1,
+  "width": 1600,
+  "height": 900,
+  "format": "transparent-webp",
+  "background": "transparent",
+  "baseColor": "#b8bdc2",
+  "projection": "parallel-x-axis",
+  "observationPoint": "left-major-axis-end-y-negative",
+  "motion": "top-to-bottom",
+  "orbit": "yz-ellipse",
+  "radiusYInAverageHullLengths": 1.6,
+  "radiusZInAverageHullLengths": 0.8,
+  "hullCount": 10,
+  "bowDirection": "screen-left",
+  "individualHullRotation": false,
+  "recommendedScrollHeight": "600vh",
+  "previewDurationMs": 7800
+}

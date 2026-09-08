@@ -174,3 +174,82 @@ html{scrollbar-gutter:stable}
 .feature-reverse{grid-template-columns:1.2fr .8fr}
 .hero-grid{grid-template-columns:.8fr 1.2fr;gap:clamp(24px,4vw,60px)}
 @media (max-width:850px){.hero-grid,.feature,.feature-reverse{grid-template-columns:1fr}}
+
+/* Scroll-driven hull sequence */
+.hull-scroll{
+  position:relative;
+  height:600vh;
+  background:transparent;
+}
+.hull-scroll__stage{
+  position:sticky;
+  top:0;
+  height:100vh;
+  min-height:620px;
+  padding-top:clamp(84px,10vh,132px);
+  padding-bottom:clamp(52px,8vh,96px);
+  overflow:hidden;
+}
+.hull-scroll__copy{position:relative;z-index:2}
+.hull-scroll__media{
+  height:min(68vh,720px);
+  min-height:440px;
+  background:transparent;
+  isolation:isolate;
+}
+.hull-scroll__media:before{display:none}
+.hull-scroll__canvas,.hull-scroll__poster{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+}
+.hull-scroll__canvas{display:block;z-index:1}
+.hull-scroll__poster{object-fit:contain;object-position:54% 50%;z-index:2;transform:scale(1.5);transform-origin:54% 50%;transition:opacity .3s ease}
+.hull-scroll.is-ready .hull-scroll__poster{opacity:0;pointer-events:none}
+.hull-scroll__loading{
+  position:absolute;
+  z-index:3;
+  left:18px;
+  top:18px;
+  padding:8px 11px;
+  border:0;
+  background:transparent;
+  color:#555;
+  font-size:10px;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+.hull-scroll.is-ready .hull-scroll__loading{display:none}
+.hull-scroll__media figcaption{z-index:4}
+
+@media (max-width:850px){
+  .hull-scroll{height:500vh}
+  .hull-scroll__stage{height:100svh;min-height:680px;align-content:center;gap:16px;padding-top:82px;padding-bottom:22px}
+  .hull-scroll__copy h2{margin-bottom:18px}
+  .hull-scroll__copy .eyebrow{margin-bottom:14px}
+  .hull-scroll__copy .check-list{margin-top:18px;gap:8px}
+  .hull-scroll__media{height:min(44svh,500px);min-height:280px}
+}
+@media (max-width:560px){
+  .hull-scroll{height:450vh}
+  .hull-scroll__stage{min-height:650px;padding-top:76px;padding-bottom:18px}
+  .hull-scroll__copy h2{font-size:38px}
+  .hull-scroll__copy>p:not(.eyebrow){font-size:16px;line-height:1.55}
+  .hull-scroll__media{height:36svh;min-height:230px}
+}
+@media (prefers-reduced-motion:reduce){
+  .hull-scroll{height:auto}
+  .hull-scroll__stage{position:relative;height:auto;min-height:0}
+  .hull-scroll__canvas,.hull-scroll__loading{display:none}
+  .hull-scroll__poster{position:relative;opacity:1}
+}
+
+/* Keep CMS-rendered FAQ controls at a consistent, touch-friendly size. */
+.accordion summary{align-items:center}
+.accordion summary svg{
+  width:20px;
+  height:20px;
+  min-width:20px;
+  flex:0 0 20px;
+}
