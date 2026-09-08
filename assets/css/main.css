@@ -164,9 +164,10 @@ html{scrollbar-gutter:stable}
 .hero-visual:after{display:none}
 .hero-visual img{width:100%;height:auto;object-fit:contain}
 
-/* Match the feature layout while preserving the complete capabilities image */
-.capability-media{height:auto;min-height:0;overflow:visible}
-.capability-media img{height:auto;object-fit:contain}
+/* Product screenshots are primary content: keep every label and edge visible. */
+.product-figure{height:auto;min-height:0;overflow:visible}
+.product-figure img{width:100%;height:auto;object-fit:contain}
+.product-figure:hover img{transform:none}
 
 /* Give the uncropped hero artwork more room and bring it closer to the copy */
 .feature{grid-template-columns:.8fr 1.2fr}
