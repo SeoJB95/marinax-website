@@ -3,4 +3,7 @@ Thumbs.db
 *.log
 .idea/
 .vscode/
+.codex-build/
+.codex-finalizer/
+output/
 

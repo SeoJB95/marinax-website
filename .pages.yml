@@ -1,8 +1,22 @@
 media:
-  input: assets/media/images
-  output: assets/media/images
-  rename: safe
-  categories: [image]
+  - name: content_images
+    label: Content images
+    input: assets/media/images
+    output: assets/media/images
+    rename: safe
+    categories: [image]
+  - name: product_figures
+    label: Product figures
+    input: figures
+    output: figures
+    rename: safe
+    categories: [image]
+  - name: brand_assets
+    label: Brand assets
+    input: assets/media/brand
+    output: assets/media/brand
+    rename: safe
+    categories: [image]
 
 content:
   - name: global
@@ -11,8 +25,8 @@ content:
     path: data/global.json
     format: json
     fields:
-      - { name: header_logo, label: Header logo, type: image, required: true }
-      - { name: footer_logo, label: Footer logo, type: image, required: true }
+      - { name: header_logo, label: Header logo, type: image, required: true, options: { media: brand_assets } }
+      - { name: footer_logo, label: Footer logo, type: image, required: true, options: { media: brand_assets } }
       - { name: nav_product, label: Product menu label, type: string, required: true }
       - { name: nav_about, label: About menu label, type: string, required: true }
       - { name: nav_news, label: News menu label, type: string, required: true }
@@ -33,7 +47,7 @@ content:
           - { name: eyebrow, label: Eyebrow, type: string, required: true }
           - { name: title, label: Title, type: string, required: true, description: "HTML: use <br> for line breaks and <span>...</span> for blue emphasis." }
           - { name: description, label: Description, type: text, required: true }
-          - { name: image, label: Image, type: image, required: true }
+          - { name: image, label: Image, type: image, required: true, options: { media: product_figures } }
           - { name: image_alt, label: Image description, type: string, required: true }
           - { name: primary_label, label: Primary button label, type: string, required: true }
           - { name: primary_link, label: Primary button link, type: string, required: true }
@@ -50,7 +64,7 @@ content:
           - { name: label, label: Section label, type: string, required: true }
           - { name: title, label: Title, type: string, required: true }
           - { name: description, label: Description, type: text, required: true }
-          - { name: image, label: Image, type: image, required: true }
+          - { name: image, label: Image, type: image, required: true, options: { media: product_figures } }
           - { name: image_alt, label: Image description, type: string, required: true }
       - name: generate
         label: Generate Hull Forms
@@ -60,7 +74,7 @@ content:
           - { name: title, label: Title, type: string, required: true }
           - { name: description, label: Description, type: text, required: true }
           - { name: items, label: Feature bullets, type: string, list: true, required: true }
-          - { name: image, label: Image, type: image, required: true }
+          - { name: image, label: Image, type: image, required: true, options: { media: product_figures } }
           - { name: image_alt, label: Image description, type: string, required: true }
           - { name: caption, label: Image caption, type: string, required: true }
       - name: prediction
@@ -72,7 +86,7 @@ content:
           - { name: description, label: Description, type: text, required: true }
           - { name: metric, label: Metric, type: string, required: true }
           - { name: metric_label, label: Metric description, type: string, required: true }
-          - { name: image, label: Image, type: image, required: true }
+          - { name: image, label: Image, type: image, required: true, options: { media: product_figures } }
           - { name: image_alt, label: Image description, type: string, required: true }
           - { name: caption, label: Image caption, type: string, required: true }
       - name: integration
@@ -84,7 +98,7 @@ content:
           - { name: description, label: Description, type: text, required: true }
           - { name: link_label, label: Link label, type: string, required: true }
           - { name: link_url, label: Link URL, type: string, required: true }
-          - { name: image, label: Image, type: image, required: true }
+          - { name: image, label: Image, type: image, required: true, options: { media: product_figures } }
           - { name: image_alt, label: Image description, type: string, required: true }
           - { name: caption, label: Image caption, type: string, required: true }
       - name: agent
@@ -95,7 +109,7 @@ content:
           - { name: title, label: Title, type: string, required: true }
           - { name: description, label: Description, type: text, required: true }
           - { name: prompt, label: Example prompt, type: string, required: true }
-          - { name: image, label: Image, type: image, required: true }
+          - { name: image, label: Image, type: image, required: true, options: { media: content_images } }
           - { name: image_alt, label: Image description, type: string, required: true }
           - { name: caption, label: Image caption, type: string, required: true }
       - { name: faq_label, label: FAQ section label, type: string, required: true }
@@ -138,7 +152,7 @@ content:
           - { name: title, label: Title, type: string, required: true }
           - { name: paragraph_1, label: First paragraph, type: text, required: true }
           - { name: paragraph_2, label: Second paragraph, type: text, required: true }
-          - { name: image, label: Image, type: image, required: true }
+          - { name: image, label: Image, type: image, required: true, options: { media: content_images } }
           - { name: image_alt, label: Image description, type: string, required: true }
       - { name: values_label, label: Values section label, type: string, required: true }
       - name: values
@@ -174,7 +188,7 @@ content:
         list:
           collapsible: { collapsed: true, summary: "{alt}" }
         fields:
-          - { name: image, label: Image, type: image, required: true }
+          - { name: image, label: Image, type: image, required: true, options: { media: content_images } }
           - { name: alt, label: Image description, type: string, required: true }
 
   - name: news_page
@@ -200,7 +214,7 @@ content:
       - { name: category, label: Category, type: string, required: true }
       - { name: date, label: Publication date, type: date, required: true }
       - { name: summary, label: Summary, type: text, required: true }
-      - { name: image, label: Card image, type: image, required: true }
+      - { name: image, label: Card image, type: image, required: true, options: { media: content_images } }
       - { name: image_alt, label: Image description, type: string, required: true }
       - { name: url, label: Link, type: string, required: false }
       - { name: published, label: Published, type: boolean, required: true }

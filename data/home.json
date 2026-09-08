@@ -3,8 +3,8 @@
     "eyebrow": "AI × SHIP DESIGN",
     "title": "Generate Hull Form.<br><span>In A Few Seconds</span>",
     "description": "Generate hull forms tailored to your requirements in seconds, complete with AI-predicted flow field information.",
-    "image": "assets/media/images/hero-16-9-2.png",
-    "image_alt": "MAX-Hull Dashboard",
+    "image": "figures/fig.1.png",
+    "image_alt": "MarinAX new hull specification workflow, project explorer, and generated 3D hull forms",
     "primary_label": "Explore capabilities",
     "primary_link": "#capabilities",
     "secondary_label": "Request a demo",
@@ -23,8 +23,8 @@
     "label": "01 — Capabilities",
     "title": "From a Few Numbers to an Efficient 3D Hull",
     "description": "From first intent to validated performance, MarinAX brings generative design, AI prediction, proven engineering tools, and expert guidance into one continuous hull-form workflow.",
-    "image": "assets/media/images/capabilities-figure-1.png",
-    "image_alt": "MarinAX project workspace showing a selected vessel, principal design parameters, a fair 3D hull surface, and key performance results together in one clean overview"
+    "image": "figures/fig.2.png",
+    "image_alt": "Annotated MarinAX workspace showing Project Explorer, 3D Hull Viewer, hydrostatics, hull specification, and AI generation information"
   },
   "generate": {
     "eyebrow": "GENERATIVE DESIGN",
@@ -35,8 +35,8 @@
       "Constraint-aware generation",
       "Performance-ready in under 20 seconds"
     ],
-    "image": "assets/media/images/generate-hull.jpg",
-    "image_alt": "MarinAX generative-design screen with a compact principal-parameter panel on the left and a newly generated, smooth commercial-vessel hull displayed in the interactive 3D viewport on the right",
+    "image": "figures/fig.3.png",
+    "image_alt": "MarinAX 3D hull viewer showing a generated commercial vessel hull with hydrostatics and specification details",
     "caption": "GENERATE / ITERATE / SELECT"
   },
   "prediction": {
@@ -45,8 +45,8 @@
     "description": "Evaluate any user-supplied or AI-generated hull at near-CFD fidelity. MarinAX predicts surface pressure, wall shear stress, and the complete wake distribution in under 30 seconds, then reveals every result in interactive 3D.",
     "metric": "< 30 sec",
     "metric_label": "Full-field prediction time",
-    "image": "assets/media/images/flow-prediction.jpg",
-    "image_alt": "MarinAX AI prediction viewer showing a hull colored by surface-pressure contours alongside a three-dimensional stern wake plane with velocity-deficit contours and selectable pressure, shear-stress, and wake result layers",
+    "image": "figures/fig.5.png",
+    "image_alt": "MarinAX AI Prediction Workspace displaying hydrodynamic pressure and wake fields around a hull",
     "caption": "PRESSURE / SHEAR / WAKE"
   },
   "integration": {
@@ -55,8 +55,8 @@
     "description": "Move seamlessly from generative AI and surrogate prediction to 2D lines, statistical performance estimates, hull-form modification, design alternatives, and high-fidelity CFD. MarinAX connects every tool and result in one environment built for hull-form optimization.",
     "link_label": "How MarinAX works",
     "link_url": "about.html",
-    "image": "assets/media/images/cfd-integration.jpg",
-    "image_alt": "A MarinAX project workflow showing connected stages for AI hull generation, 2D lines, statistical prediction, hull modification, design alternatives, AI surrogate analysis, CFD validation, and side-by-side optimization results",
+    "image": "figures/fig.4.png",
+    "image_alt": "MarinAX integrated engineering workspace comparing hull lines with CFD wave-pattern and pressure results",
     "caption": "DESIGN / PREDICT / VALIDATE"
   },
   "agent": {
