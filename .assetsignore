@@ -1,0 +1,10 @@
+.git/
+.github/
+.codex-build/
+.codex-finalizer/
+output/
+docs/
+.gitignore
+.pages.yml
+README.md
+wrangler.jsonc
