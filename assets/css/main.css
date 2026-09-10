@@ -106,6 +106,18 @@
 .section-agent{max-width:none;background:linear-gradient(135deg,#edf4ff 0%,#f8fafc 58%,#e8f0fb 100%);color:#050505;padding-left:max(var(--pad),calc((100vw - var(--max))/2));padding-right:max(var(--pad),calc((100vw - var(--max))/2));border-top:1px solid #dbe4ef;border-bottom:1px solid #dbe4ef}
 .section-agent .feature-copy>p:not(.eyebrow){color:#5f6874}.section-agent .feature-number{color:rgba(1,97,245,.09)}
 .section-agent .agent-prompt{background:rgba(255,255,255,.66);border-color:#c7d5e6;color:#263445;backdrop-filter:blur(12px)}
+.section-agent .agent-media{
+  height:auto;
+  min-height:0;
+  overflow:visible;
+}
+.section-agent .agent-media img{
+  width:100%;
+  height:auto;
+  object-fit:contain;
+  transform:none;
+}
+.section-agent .agent-media:hover img{transform:none}
 .cta-light{background:linear-gradient(135deg,#eaf2fd,#f8fafc);color:#050505;border-top:1px solid #dbe4ef}
 .cta-light .circle-link{background:var(--brand-blue);color:#fff}
 .form-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
