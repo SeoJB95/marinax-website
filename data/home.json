@@ -39,7 +39,7 @@
     "poster_alt": "AI-generated ship hull forms",
     "sequence_root": "assets/media/hull-carousel/frames",
     "frame_count": 120,
-    "canvas_label": "A sequence of AI-generated hull forms moving with page scroll",
+    "canvas_label": "A looping animation of AI-generated hull forms",
     "loading_label": "Loading hull forms",
     "caption": "GENERATE / ITERATE / SELECT"
   },
