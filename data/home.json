@@ -35,8 +35,12 @@
       "Constraint-aware generation",
       "Performance-ready in under 20 seconds"
     ],
-    "image": "figures/fig.3.png",
-    "image_alt": "MarinAX 3D hull viewer showing a generated commercial vessel hull with hydrostatics and specification details",
+    "poster_image": "assets/media/hull-carousel/poster.webp",
+    "poster_alt": "AI-generated ship hull forms",
+    "sequence_root": "assets/media/hull-carousel/frames",
+    "frame_count": 120,
+    "canvas_label": "A sequence of AI-generated hull forms moving with page scroll",
+    "loading_label": "Loading hull forms",
     "caption": "GENERATE / ITERATE / SELECT"
   },
   "prediction": {
@@ -73,7 +77,7 @@
   "faqs": [
     {
       "question": "What is MarinAX?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. MarinAX brings AI hull generation, flow prediction, and CFD validation into one engineering workflow."
+      "answer": "MarinAX represents our commitment to lead AI Transformation (AX) across the marine engineering field. We are beginning with hull-form design, but our vision extends far beyond a single discipline: to bring AX to every area of naval architecture and marine engineering."
     },
     {
       "question": "How much hull-form and CFD data does MarinAX have, and how was it built?",

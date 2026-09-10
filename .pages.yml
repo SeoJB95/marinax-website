@@ -17,6 +17,12 @@ media:
     output: assets/media/brand
     rename: safe
     categories: [image]
+  - name: hull_carousel
+    label: Hull carousel
+    input: assets/media/hull-carousel
+    output: assets/media/hull-carousel
+    rename: safe
+    categories: [image]
 
 content:
   - name: global
@@ -74,8 +80,12 @@ content:
           - { name: title, label: Title, type: string, required: true }
           - { name: description, label: Description, type: text, required: true }
           - { name: items, label: Feature bullets, type: string, list: true, required: true }
-          - { name: image, label: Image, type: image, required: true, options: { media: product_figures } }
-          - { name: image_alt, label: Image description, type: string, required: true }
+          - { name: poster_image, label: Sequence poster image, type: image, required: true, options: { media: hull_carousel } }
+          - { name: poster_alt, label: Poster image description, type: string, required: true }
+          - { name: sequence_root, label: Frame folder path, type: string, required: true, description: "Repository path containing sequential hull_0001.webp frame files." }
+          - { name: frame_count, label: Number of animation frames, type: number, required: true }
+          - { name: canvas_label, label: Animation accessibility label, type: string, required: true }
+          - { name: loading_label, label: Loading message, type: string, required: true }
           - { name: caption, label: Image caption, type: string, required: true }
       - name: prediction
         label: Predict the Flow
@@ -241,3 +251,7 @@ content:
       - { name: submit_label, label: Submit button, type: string, required: true }
       - { name: form_note, label: Form note, type: text, required: true }
       - { name: success_message, label: Success message, type: string, required: true }
+
+settings:
+  content:
+    merge: true
