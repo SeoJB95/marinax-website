@@ -107,17 +107,23 @@
 .section-agent .feature-copy>p:not(.eyebrow){color:#5f6874}.section-agent .feature-number{color:rgba(1,97,245,.09)}
 .section-agent .agent-prompt{background:rgba(255,255,255,.66);border-color:#c7d5e6;color:#263445;backdrop-filter:blur(12px)}
 .section-agent .agent-media{
-  height:auto;
+  height:min(55vw,680px);
   min-height:0;
   overflow:visible;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 .section-agent .agent-media img{
   width:100%;
-  height:auto;
+  height:100%;
   object-fit:contain;
   transform:none;
 }
 .section-agent .agent-media:hover img{transform:none}
+@media (max-width:850px){
+  .section-agent .agent-media{height:min(90vw,680px)}
+}
 .cta-light{background:linear-gradient(135deg,#eaf2fd,#f8fafc);color:#050505;border-top:1px solid #dbe4ef}
 .cta-light .circle-link{background:var(--brand-blue);color:#fff}
 .form-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
