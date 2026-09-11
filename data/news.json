@@ -6,7 +6,19 @@
     "summary": "Join MarinAX in Busan for a live demonstration of AI-powered 3D hull generation, rapid performance prediction, automated CFD workflows, and the future of practical AI for hull-form design.",
     "image": "assets/media/images/max-hull-launch-invitation.png",
     "image_alt": "Invitation to the MarinAX MAX-Hull product launch on September 18, 2026",
+    "image_fit": "contain",
     "url": "news-max-hull-launch.html",
+    "published": true
+  },
+  {
+    "title": "MarinAX is setting sail. A new voyage begins.",
+    "category": "Company",
+    "date": "2026-08-15",
+    "summary": "MarinAX brings together shipbuilding experience, academic research, data, and artificial intelligence to accelerate AI transformation across the maritime industry.",
+    "image": "assets/media/images/marinax-founding-announcement.png",
+    "image_alt": "A message announcing the founding of MarinAX on August 15, 2026",
+    "image_fit": "contain",
+    "url": "news-marinax-founding.html",
     "published": true
   }
 ]

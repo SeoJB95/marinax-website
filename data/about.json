@@ -13,13 +13,53 @@
   },
   "values_label": "What we value",
   "values": [
-    {"icon": "wand-sparkles", "title": "Fully Automated<br>Hull Generation", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    {"icon": "timer", "title": "Fast<br>Prediction", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    {"icon": "badge-check", "title": "Validated<br>CFD Tools", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    {"icon": "bot", "title": "Work with<br>Agent", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+    {"icon": "wand-sparkles", "title": "Fully Automated<br>Hull Generation", "description": "Generate a fair, performance-ready 3D hull from only a few principal parameters, with AI recommending the remaining inputs."},
+    {"icon": "timer", "title": "Fast<br>Prediction", "description": "Review pressure, wall shear stress, and wake distributions in seconds while design decisions are still easy to change."},
+    {"icon": "badge-check", "title": "Validated<br>CFD Tools", "description": "Move directly from rapid AI prediction to high-fidelity CFD when a design needs deeper verification and performance assessment."},
+    {"icon": "bot", "title": "Work with<br>Agent", "description": "Describe the design goal in natural language and let Agent MAX coordinate generation, prediction, comparison, and optimization."}
+  ],
+  "team_label": "Leadership",
+  "team_title": "Engineering experience,<br>built into the team.",
+  "team": [
+    {
+      "role": "Chief Executive Officer",
+      "name": "Seung Myun HWANGBO",
+      "credentials": "",
+      "photo": "assets/media/images/max-hull-launch-invitation.png",
+      "photo_key": "ceo",
+      "photo_alt": "Seung Myun Hwangbo, Chief Executive Officer of MarinAX",
+      "bio": ""
+    },
+    {
+      "role": "Chief Operating Officer",
+      "name": "Inwon LEE",
+      "credentials": "Ph.D.",
+      "photo": "assets/media/images/max-hull-launch-invitation.png",
+      "photo_key": "coo",
+      "photo_alt": "Inwon Lee, Chief Operating Officer of MarinAX",
+      "bio": "Inwon Lee is a professor in the Department of Naval Architecture and Ocean Engineering at Pusan National University. He received his Ph.D. from the Department of Mechanical Engineering at KAIST in 2000. Since joining PNU in 2003, his work has focused on ship energy saving through hull-form and appendage design, drag-reducing marine coatings, and hull-form design using artificial intelligence and machine learning."
+    },
+    {
+      "role": "Chief Strategy Officer",
+      "name": "Hoseong LEE",
+      "credentials": "Ph.D.",
+      "photo": "assets/media/images/max-hull-launch-invitation.png",
+      "photo_key": "cso",
+      "photo_alt": "Hoseong Lee, Chief Strategy Officer of MarinAX",
+      "bio": ""
+    },
+    {
+      "role": "Chief Technology Officer",
+      "name": "Jeongbeom SEO",
+      "credentials": "Ph.D.",
+      "photo": "assets/media/images/max-hull-launch-invitation.png",
+      "photo_key": "cto",
+      "photo_alt": "Jeongbeom Seo, Chief Technology Officer of MarinAX",
+      "bio": "Jeongbeom Seo develops generative AI for engineering design, hull-form generation, and AI-powered simulation-based design. He developed a web-based hull-form and Energy Saving Device design automation system that integrates parametric design, AI, CAD, CFD, and optimization. His work also covers Python-based full-stack development, ship-performance prediction, and 3D hull-form generation."
+    }
   ],
   "stats": [{"value": 4000, "suffix": "+", "label": "Trained Hull Forms"}, {"value": 12000, "suffix": "+", "label": "Trained Flow Fields"}],
-  "cta": {"eyebrow": "DESIGN WITH INTELLIGENCE", "title": "Start Your First<br>AI-Powered Hull Design", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "button_label": "Ask for a demonstration", "button_link": "contact.html"},
+  "cta": {"eyebrow": "DESIGN WITH INTELLIGENCE", "title": "Start Your First<br>AI-Powered Hull Design", "description": "Bring us your target vessel, operating conditions, or current design workflow. We will demonstrate how MAX-Hull can shorten exploration and reveal performance earlier.", "button_label": "Ask for a demonstration", "button_link": "contact.html"},
   "gallery": [
     {"image": "figures/fig.1.png", "alt": "MarinAX hull specification and generated 3D hull workspace", "label": "HULL SPECIFICATION"},
     {"image": "assets/media/hull-carousel/poster.webp", "alt": "AI-generated hull form sequence", "label": "GENERATIVE HULLS"},
