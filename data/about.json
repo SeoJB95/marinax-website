@@ -55,7 +55,7 @@
       "photo": "assets/media/images/team-jeongbeom-seo.jpg",
       "photo_key": "cto-profile",
       "photo_alt": "Jeongbeom Seo, Chief Technology Officer of MarinAX",
-      "bio": "Jeongbeom Seo develops generative AI for engineering design, hull-form generation, and AI-powered simulation-based design. He earned his B.S., M.S., and Ph.D. in Naval Architecture and Ocean Engineering from Pusan National University. He developed a web-based hull-form and Energy Saving Device design automation system that integrates parametric design, AI, CAD, CFD, and optimization. His work also covers Python-based full-stack development, ship-performance prediction, and 3D hull-form generation."
+    "bio": "Jeongbeom Seo develops generative AI for engineering design and AI-powered simulation workflows. He built a web-based hull-form and Energy Saving Device design automation system that integrates parametric design, AI, CAD, CFD, and optimization. He earned his B.S., M.S., and Ph.D. in Naval Architecture and Ocean Engineering from Pusan National University."
     }
   ],
   "stats": [{"value": 4000, "suffix": "+", "label": "Trained Hull Forms"}, {"value": 12000, "suffix": "+", "label": "Trained Flow Fields"}],
