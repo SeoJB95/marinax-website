@@ -25,8 +25,8 @@
       "role": "Chief Executive Officer",
       "name": "Seung Myun HWANGBO",
       "credentials": "",
-      "photo": "assets/media/images/max-hull-launch-invitation.png",
-      "photo_key": "ceo",
+      "photo": "assets/media/images/team-seung-myun-hwangbo.webp",
+      "photo_key": "ceo-profile",
       "photo_alt": "Seung Myun Hwangbo, Chief Executive Officer of MarinAX",
       "bio": "Seung Myun Hwangbo is a research professor at Pusan National University's Global Core Research Center for Ships and Offshore Plants, where he has served since 2015. Before joining PNU, he worked at Samsung Heavy Industries as a research director and executive in its marine research organization. He represented Samsung on the International Towing Tank Conference's Powering Performance Prediction Committee. His career spans hull-form modelling, ship hydrodynamics, propulsion and cavitation performance, and energy-saving flow-control technologies, supported by published research and patented ship propulsion and resistance-reduction systems."
     },
@@ -34,8 +34,8 @@
       "role": "Chief Operating Officer",
       "name": "Inwon LEE",
       "credentials": "Ph.D.",
-      "photo": "assets/media/images/max-hull-launch-invitation.png",
-      "photo_key": "coo",
+      "photo": "assets/media/images/team-inwon-lee.webp",
+      "photo_key": "coo-profile",
       "photo_alt": "Inwon Lee, Chief Operating Officer of MarinAX",
       "bio": "Inwon Lee is a professor in the Department of Naval Architecture and Ocean Engineering at Pusan National University. He received his Ph.D. from the Department of Mechanical Engineering at KAIST in 2000. Since joining PNU in 2003, his work has focused on ship energy saving through hull-form and appendage design, drag-reducing marine coatings, and hull-form design using artificial intelligence and machine learning."
     },
@@ -43,8 +43,8 @@
       "role": "Chief Strategy Officer",
       "name": "Hoseong LEE",
       "credentials": "Ph.D.",
-      "photo": "assets/media/images/max-hull-launch-invitation.png",
-      "photo_key": "cso",
+      "photo": "assets/media/images/team-hoseong-lee.webp",
+      "photo_key": "cso-profile",
       "photo_alt": "Hoseong Lee, Chief Strategy Officer of MarinAX",
       "bio": "Hoseong Lee served 21 years at the American Bureau of Shipping, including as Vice President of Technology at its Houston headquarters and Director of Engineering for ABS Busan. Before ABS, he spent 13 years at Hyundai and Halla Heavy Industries in South Korea as Director of R&D and the Ship Design Office. He holds a Ph.D. in Ocean Engineering from Stevens Institute of Technology, and B.S. and M.S. degrees in Naval Architecture and Ocean Engineering from Seoul National University."
     },
