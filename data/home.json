@@ -45,9 +45,9 @@
   },
   "prediction": {
     "eyebrow": "AI SURROGATE MODEL",
-    "title": "Predict the Flow<br>in a Few Seconds",
+    "title": "Predict the Flow<br>in a Minute",
     "description": "Evaluate any user-supplied or AI-generated hull at near-CFD fidelity. MarinAX predicts surface pressure, wall shear stress, and the complete wake distribution in under 30 seconds, then reveals every result in interactive 3D.",
-    "metric": "< 30 sec",
+    "metric": "<30 sec",
     "metric_label": "Full-field prediction time",
     "image": "figures/fig.5.png",
     "image_alt": "MarinAX AI Prediction Workspace displaying hydrodynamic pressure and wake fields around a hull",
