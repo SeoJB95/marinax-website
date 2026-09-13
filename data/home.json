@@ -67,7 +67,7 @@
     "eyebrow": "CONVERSATIONAL ENGINEERING",
     "title": "Ask Agent MAX<br>Everything",
     "description": "Design by conversation with MAX, an engineering agent carefully harnessed with the judgment of a hull-form specialist with 40 years of experience. Describe your goal and MAX orchestrates generation, prediction, comparison, and optimization across MarinAX for you.",
-    "prompt": "“Creat froe and aft CP_UV 3X3 hull variations, run every CFD case at 15.5kn and 10.0m draft, compare the results, and deliver a report. Use standard settings.”",
+    "prompt": "“Create fore and aft CP_UV 3X3 hull variations, run every CFD case at 15.5kn and 10.0m draft, compare the results, and deliver a report. Use standard settings.”",
     "image": "assets/media/images/max-cfd-conversational-agent-light-tall-slow.webp",
     "image_alt": "Animated MarinAX Agent MAX conversational workspace for orchestrating a CFD design study",
     "caption": "ASK / REASON / EXECUTE"
