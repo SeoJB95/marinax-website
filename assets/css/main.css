@@ -451,3 +451,26 @@ html{scrollbar-gutter:stable}
   .news-card .news-card-image.is-contain,.news-card.featured .news-card-image.is-contain{height:68vw}
   .founders ul{grid-template-columns:1fr}
 }
+
+/* Simple corporate notice board. Content and downloads work without JavaScript. */
+.notice-page{max-width:1120px;margin:0 auto;padding:140px var(--pad) 120px;min-height:70vh}
+.notice-heading{margin-bottom:40px}.notice-heading .eyebrow{margin-bottom:20px}
+.notice-heading h1{font-size:clamp(48px,6vw,76px);margin-bottom:20px}
+.notice-heading>p:last-child{color:var(--muted);line-height:1.6}
+.notice-method{padding:24px 28px;border:1px solid var(--line);background:#fff;margin-bottom:44px}
+.notice-method h2{font:600 16px/1.4 "Figtree",sans-serif;letter-spacing:0;margin-bottom:12px}
+.notice-method p{font-size:14px;line-height:1.8;color:#555}
+.notice-method a{text-decoration:underline;text-underline-offset:3px}
+.notice-method .notice-basis{margin-top:12px;font-size:13px}
+.notice-columns,.notice-entry summary{display:grid;grid-template-columns:48px minmax(0,1fr) 120px;gap:20px;align-items:center;padding:20px 8px}
+.notice-columns{font-size:12px;color:var(--muted);border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+.notice-columns span:last-child{text-align:right}.notice-entry{border-bottom:1px solid var(--line)}
+.notice-entry summary{list-style:none;cursor:pointer}.notice-entry summary::-webkit-details-marker{display:none}
+.notice-number,.notice-entry time{font-size:13px;color:var(--muted)}.notice-entry time{text-align:right}.notice-title{font-weight:600;line-height:1.5}
+.notice-title:after{content:" +";color:var(--brand-blue);margin-left:12px}.notice-entry[open] .notice-title:after{content:" −"}
+.notice-body{border-top:1px solid var(--line);padding:28px 24px 32px 76px;background:#fff}
+.notice-body p{max-width:680px;line-height:1.8;font-size:15px}.notice-signature{margin-top:20px;font-weight:600}
+.notice-download{display:inline-flex;gap:30px;align-items:center;margin-top:26px;border:1px solid var(--line);padding:13px 18px;font-size:14px;font-weight:600}
+.notice-download span{color:var(--brand-blue);font-size:12px}.notice-download:hover{border-color:var(--brand-blue)}
+.notice-page a:focus-visible,.notice-entry summary:focus-visible{outline:2px solid var(--brand-blue);outline-offset:4px}
+@media(max-width:560px){.notice-page{padding-top:120px;padding-bottom:72px}.notice-method{padding:20px}.notice-columns,.notice-entry summary{grid-template-columns:24px minmax(0,1fr);gap:10px}.notice-columns span:last-child{display:none}.notice-entry time{grid-column:2;text-align:left}.notice-body{padding:24px}.notice-title{font-size:15px}}
