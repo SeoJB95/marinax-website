@@ -48,5 +48,5 @@ clause. This is the basis for electronic publication, not a claim that an
 incorporation announcement is legally mandatory. The PDF attachment is the original Korean corporate registry supplied by the
 company, published unchanged at its explicit request. The older August 15 news article is a separate company story.
 
-The Notice page defaults to Korean. The small ENG/KOR button below the title
+The Notice page defaults to Korean. The small ENG/KOR button at the right end of the title row
 switches its content in place; the original Korean PDF remains unchanged.
