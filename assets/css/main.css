@@ -454,6 +454,16 @@ html{scrollbar-gutter:stable}
   .founders ul{grid-template-columns:1fr}
 }
 
+/* Keep the latest story prominent without making it a full-width feature. */
+.news-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;padding-bottom:80px}
+.news-card.featured{grid-column:auto;border-top:3px solid var(--brand-blue)}
+.news-card{min-width:0}
+.news-card img,.news-card.featured img,.news-card .news-card-image.is-contain,.news-card.featured .news-card-image.is-contain{height:240px;margin-bottom:18px}
+.news-card h2,.news-card:not(.featured) h2{font-size:clamp(22px,2vw,27px);margin:14px 28px 10px 0;line-height:1.18}
+.news-card p{font-size:15px}
+@media (max-width:900px){.news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.news-grid{grid-template-columns:1fr;gap:22px;padding-bottom:64px}.news-card img,.news-card.featured img,.news-card .news-card-image.is-contain,.news-card.featured .news-card-image.is-contain{height:54vw;max-height:300px}}
+
 /* Simple corporate notice board. Content and downloads work without JavaScript. */
 .notice-page{max-width:1120px;margin:0 auto;padding:140px var(--pad) 120px;min-height:70vh}
 .notice-heading{margin-bottom:40px}.notice-heading .eyebrow{margin-bottom:20px}
