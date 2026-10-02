@@ -1,5 +1,21 @@
 [
   {
+    "title": "ICCAS 2026 최우수 논문상 수상",
+    "title_en": "Best Paper Award at ICCAS 2026",
+    "category": "수상",
+    "category_en": "Award",
+    "date": "2026-10-02",
+    "summary": "이인원·이광득·서정범의 심층 강화학습 및 생성형 AI 기반 선형설계 플랫폼 연구가 싱가포르에서 열린 ICCAS 2026에서 최우수 논문상을 수상했습니다.",
+    "summary_en": "Inwon Lee, Kwangdeuk Lee and Jeongbeom Seo received the Best Paper Award at ICCAS 2026 in Singapore for their research on a hull-form design platform based on deep reinforcement learning and generative AI.",
+    "image": "assets/media/images/iccas-2026-best-paper-award.jpg",
+    "image_alt": "ICCAS 2026 최우수 논문상 상장",
+    "image_alt_en": "ICCAS 2026 Best Paper Award certificate",
+    "image_fit": "contain",
+    "url": "news-iccas-2026-best-paper-award.html",
+    "bilingual": true,
+    "published": true
+  },
+  {
     "title": "선형설계의 새 흐름, MAX-Hull 공개",
     "title_en": "MAX-Hull brings AI into hull-form design",
     "category": "언론보도",
@@ -39,22 +55,6 @@
     "image_alt": "A message announcing the founding of MarinAX on August 15, 2026",
     "image_fit": "contain",
     "url": "news-marinax-founding.html",
-    "published": true
-  },
-  {
-    "title": "ICCAS 2026 최우수 논문상 수상",
-    "title_en": "Best Paper Award at ICCAS 2026",
-    "category": "수상",
-    "category_en": "Award",
-    "date": "2026-09-16",
-    "summary": "이인원·이광득·서정범의 심층 강화학습 및 생성형 AI 기반 선형설계 플랫폼 연구가 싱가포르에서 열린 ICCAS 2026에서 최우수 논문상을 수상했습니다.",
-    "summary_en": "Inwon Lee, Kwangdeuk Lee and Jeongbeom Seo received the Best Paper Award at ICCAS 2026 in Singapore for their research on a hull-form design platform based on deep reinforcement learning and generative AI.",
-    "image": "assets/media/images/iccas-2026-best-paper-award.jpg",
-    "image_alt": "ICCAS 2026 최우수 논문상 상장",
-    "image_alt_en": "ICCAS 2026 Best Paper Award certificate",
-    "image_fit": "contain",
-    "url": "news-iccas-2026-best-paper-award.html",
-    "bilingual": true,
     "published": true
   }
 ]
