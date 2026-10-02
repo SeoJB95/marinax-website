@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     document.querySelectorAll("[data-alt-ko][data-alt-en]").forEach(image=>image.alt=lang==="ko"?image.dataset.altKo:image.dataset.altEn);
     const back=document.querySelector(".article-back");
     if(back)back.href=`news.html?lang=${lang}`;
-    document.title=lang==="ko"?"MAX-Hull 공개 — MarinAX":"MAX-Hull launch — MarinAX";
+    document.title=lang==="ko"?(document.documentElement.dataset.titleKo||"MAX-Hull 공개 — MarinAX"):(document.documentElement.dataset.titleEn||"MAX-Hull launch — MarinAX");
   }
   buttons.forEach(button=>button.addEventListener("click",()=>setLanguage(button.dataset.lang)));
   setLanguage(new URLSearchParams(location.search).get("lang")==="en"?"en":"ko");
