@@ -13,7 +13,7 @@ The three approved CI logo variants live under `assets/media/brand/`:
 Do not recolor, distort, crop, or overwrite these source SVG files. Select the
 variant based on background contrast.
 
-Email signatures can use `marinax-logo-email.png`, a transparent 240×51 px
+Email signatures can use `marinax-logo-email.png`, a transparent 168×36 px
 PNG rendered from the approved light-background `marinax-logo-v1.svg`.
 Its public URL is https://marinax.co.kr/assets/media/brand/marinax-logo-email.png.
 Use it at its native dimensions and link it to https://marinax.co.kr/.
