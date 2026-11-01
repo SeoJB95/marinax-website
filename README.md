@@ -31,7 +31,6 @@ All replaceable media belongs under `assets/media/`. See
 Push to `main`. The workflow in `.github/workflows/pages.yml` publishes the
 repository root to GitHub Pages.
 
-
 ## Corporate notices
 
 Keep this deliberately simple: one static Korean-first bilingual page, native expandable notices,
@@ -50,3 +49,16 @@ company, published unchanged at its explicit request. The older August 15 news a
 
 The Notice page defaults to Korean. The small ENG/KOR button at the right end of the title row
 switches its content in place; the original Korean PDF remains unchanged.
+
+## Analytics
+
+The site has a GA4 loader on every page. It remains inactive until a web data
+stream measurement ID is added to `GA4_MEASUREMENT_ID` in
+`assets/js/analytics.js`. Create a GA4 property and a Web data stream for
+`https://marinax.co.kr/`, then paste its `G-...` measurement ID there.
+
+The loader runs only on `marinax.co.kr` and `www.marinax.co.kr`, so local
+previews do not add test visits. It uses GA4's automatic page-view measurement;
+do not add a second page-view tag without checking for duplicate events. After
+publishing, check GA4 Realtime or DebugView and review the site's privacy notice
+and consent setup before collecting visitor data.
