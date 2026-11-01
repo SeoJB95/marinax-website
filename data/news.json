@@ -16,32 +16,18 @@
     "published": true
   },
   {
-    "title": "국내 8개 매체가 조명한 MAX-Hull 공개",
-    "title_en": "MAX-Hull launch featured by eight Korean media outlets",
+    "title": "국내 주요 매체가 조명한 MAX-Hull 공개",
+    "title_en": "Korean media spotlight the MAX-Hull launch",
     "category": "언론보도",
     "category_en": "Press roundup",
     "date": "2026-09-23",
-    "summary": "국제신문, 베리타스알파, 중도일보, 해사신문 등 8개 매체가 MAX-Hull의 AI 선형 생성, 성능 예측, CFD 자동화와 설계 기간 단축 가능성을 보도했습니다.",
-    "summary_en": "Eight Korean media outlets covered MAX-Hull's AI hull generation, performance prediction, CFD automation and potential to shorten hull-form design cycles.",
+    "summary": "국내 주요 매체가 MAX-Hull의 AI 선형 생성, 성능 예측, CFD 자동화와 설계 기간 단축 가능성을 보도했습니다.",
+    "summary_en": "Korean media covered MAX-Hull's AI hull generation, performance prediction, CFD automation and potential to shorten hull-form design cycles.",
     "image": "assets/media/images/max-hull-media-coverage.jpg",
     "image_alt": "MAX-Hull 제품발표회에 참석한 조선·해양산업 관계자들",
     "image_alt_en": "Shipbuilding and maritime industry participants at the MAX-Hull launch",
     "url": "news-max-hull-press-roundup.html",
     "bilingual": true,
-    "published": true
-  },
-  {
-    "title": "선형설계의 새 흐름, MAX-Hull 공개",
-    "title_en": "MAX-Hull brings AI into hull-form design",
-    "category": "언론보도",
-    "category_en": "Press",
-    "date": "2026-09-21",
-    "summary": "부산대 교원창업기업 마린에이엑스가 AI 기반 선형설계 플랫폼 MAX-Hull을 공개했습니다. 선형 생성부터 성능 예측, CFD 해석까지 하나의 흐름으로 연결합니다.",
-    "summary_en": "MarinAX unveiled MAX-Hull, connecting AI-driven hull generation, performance prediction and CFD analysis in one design workflow.",
-    "image": "assets/media/images/max-hull-media-coverage.jpg",
-    "image_alt": "MAX-Hull 제품발표회에서 AI 기반 선박설계 기술을 소개하는 마린에이엑스 공동창업자들. 사진: 부산대학교 제공, 더쎈뉴스 게재",
-    "image_alt_en": "MarinAX co-founders present AI-based ship design at the MAX-Hull launch. Photo: Pusan National University, via The CEN News",
-    "url": "news-max-hull-media-coverage.html",
     "published": true
   },
   {
