@@ -500,3 +500,10 @@ html{scrollbar-gutter:stable}
 .notice-language[hidden]{display:none}.notice-language:hover{color:var(--brand-blue)}
 .notice-language:focus-visible{outline:2px solid var(--brand-blue);outline-offset:4px}
 .notice-download>[data-notice-ko]{font-size:14px;color:inherit}
+
+/* Catalog download beside the landing hero actions. */
+.hero-actions{flex-wrap:wrap;gap:20px 24px}
+.hero-actions>a{flex-shrink:0;white-space:nowrap}
+.hero .button-catalog{background:transparent;color:var(--brand-blue);border:1px solid var(--brand-blue)}
+.hero .button-catalog:hover{background:#edf4ff}
+.hero-actions>a:focus-visible{outline:2px solid var(--brand-blue);outline-offset:5px}

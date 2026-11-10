@@ -9,6 +9,8 @@
     "primary_link": "#capabilities",
     "secondary_label": "Request a demo",
     "secondary_link": "contact.html",
+    "catalog_label": "Download catalog",
+    "catalog_link": "assets/media/documents/marinax-catalog.pdf",
     "scroll_label": "Scroll to explore",
     "location_label": "Busan · Houston · Global"
   },

@@ -59,6 +59,8 @@ content:
           - { name: primary_link, label: Primary button link, type: string, required: true }
           - { name: secondary_label, label: Secondary button label, type: string, required: true }
           - { name: secondary_link, label: Secondary button link, type: string, required: true }
+          - { name: catalog_label, label: Catalog button label, type: string, required: true }
+          - { name: catalog_link, label: Catalog PDF link, type: string, required: true }
           - { name: scroll_label, label: Scroll label, type: string, required: true }
           - { name: location_label, label: Location label, type: string, required: true }
       - { name: clients_intro, label: Customer section intro, type: string, required: true }
