@@ -509,9 +509,9 @@ html{scrollbar-gutter:stable}
 .hero-actions>a:focus-visible{outline:2px solid var(--brand-blue);outline-offset:5px}
 
 /* Left-align the original CIs; only scroll when their combined width exceeds the strip. */
-.partner-strip{background:#fff;border-bottom:1px solid #e5e5e5;padding:22px 0}
-.partner-marquee{--partner-gap:clamp(48px,5vw,88px);--partner-inset:24px;overflow:hidden;padding:0 var(--partner-inset)}
-.partner-marquee.is-overflowing{padding:0;mask-image:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent)}
+.partner-strip{background:#fff;border-bottom:1px solid #e5e5e5;padding:22px var(--pad)}
+.partner-marquee{--partner-gap:clamp(48px,5vw,88px);width:100%;max-width:var(--max);margin:0 auto;overflow:hidden}
+.partner-marquee.is-overflowing{mask-image:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,#000 6%,#000 94%,transparent)}
 .partner-marquee:focus-visible{outline:2px solid var(--brand-blue);outline-offset:-3px}
 .partner-marquee__track{display:flex;width:max-content;margin:0}
 .partner-marquee__track.is-animated{margin:0;animation:partner-drift var(--partner-duration,40s) linear infinite;will-change:transform}
@@ -526,14 +526,14 @@ html{scrollbar-gutter:stable}
 .partner-marquee:hover .partner-marquee__track,.partner-marquee:focus-within .partner-marquee__track{animation-play-state:paused}
 @keyframes partner-drift{from{transform:translateX(-50%)}to{transform:translateX(0)}}
 @media(max-width:560px){
-  .partner-strip{padding:18px 0}
+  .partner-strip{padding:18px var(--pad)}
   .partner-marquee{--partner-gap:40px}
   .partner-marquee__item{width:192px;height:40px;flex-basis:192px}
   .partner-logo--jo{width:192px}
   .partner-logo--pnu{width:173px}
 }
 @media(prefers-reduced-motion:reduce){
-  .partner-marquee,.partner-marquee.is-overflowing{padding:0 var(--partner-inset);mask-image:none;-webkit-mask-image:none}
+  .partner-marquee,.partner-marquee.is-overflowing{mask-image:none;-webkit-mask-image:none}
   .partner-marquee__track,.partner-marquee__track.is-animated{width:100%;animation:none;transform:none;will-change:auto}
   .partner-marquee__group,.is-overflowing .partner-marquee__group{min-width:0;width:100%;padding:0;flex-wrap:wrap;justify-content:flex-start;gap:24px 56px}
   .partner-marquee__group[aria-hidden],.is-overflowing .partner-marquee__group[aria-hidden]{display:none}

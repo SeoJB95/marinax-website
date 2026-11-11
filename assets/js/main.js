@@ -18,10 +18,9 @@ function renderPartnerLogos(partners){
   const reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)");
   const update=()=>{
     const gap=parseFloat(getComputedStyle(original).columnGap)||0;
-    const inset=parseFloat(getComputedStyle(marquee).getPropertyValue("--partner-inset"))||0;
     const logoWidth=Array.from(original.children).reduce((width,item)=>width+item.getBoundingClientRect().width,0);
     const contentWidth=logoWidth+gap*(partners.length-1);
-    const overflowing=!reducedMotion.matches&&contentWidth>marquee.clientWidth-inset*2+1;
+    const overflowing=!reducedMotion.matches&&contentWidth>marquee.clientWidth+1;
     marquee.classList.toggle("is-overflowing",overflowing);
     track.classList.toggle("is-animated",overflowing);
     track.style.setProperty("--partner-duration",`${(contentWidth+gap)/24}s`);
