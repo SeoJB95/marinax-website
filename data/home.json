@@ -14,12 +14,21 @@
     "scroll_label": "Scroll to explore",
     "location_label": "Busan · Houston · Global"
   },
-  "clients_intro": "Built for the engineers in",
-  "clients": [
-    "SHIPYARDS",
-    "SHIP DESIGN COMPANY",
-    "UNIVERSITY",
-    "CLASSIFICATION SOCIETY"
+  "partners": [
+    {
+      "name": "JO Engineering",
+      "image": "assets/media/partners/jo-engineering.svg",
+      "variant": "jo",
+      "width": 304,
+      "height": 28
+    },
+    {
+      "name": "Pusan National University",
+      "image": "assets/media/partners/pusan-national-university.jpg",
+      "variant": "pnu",
+      "width": 323,
+      "height": 54
+    }
   ],
   "capabilities": {
     "label": "01 — Capabilities",

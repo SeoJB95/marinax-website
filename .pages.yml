@@ -63,8 +63,17 @@ content:
           - { name: catalog_link, label: Catalog PDF link, type: string, required: true }
           - { name: scroll_label, label: Scroll label, type: string, required: true }
           - { name: location_label, label: Location label, type: string, required: true }
-      - { name: clients_intro, label: Customer section intro, type: string, required: true }
-      - { name: clients, label: Customer types, type: string, list: true, required: true }
+      - name: partners
+        label: Partner logos
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{name}" }
+        fields:
+          - { name: name, label: Partner name, type: string, required: true }
+          - { name: image, label: Logo, type: image, required: true }
+          - { name: variant, label: Logo sizing variant, type: string, required: true, description: "Use jo or pnu for the supplied logos; default for additional logos." }
+          - { name: width, label: Original width, type: number, required: true }
+          - { name: height, label: Original height, type: number, required: true }
       - name: capabilities
         label: Capabilities
         type: object

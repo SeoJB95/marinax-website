@@ -22,3 +22,17 @@ or remove the matching entry when an image changes.
 
 License: https://unsplash.com/license
 
+## Partner identity assets
+
+These official CIs are used at the user's request for the partner strip. Their
+respective owners retain trademark and artwork rights; no general reuse license
+is implied. Preserve the original colors and aspect ratios.
+
+| Local file (under `assets/media/partners/`) | Source |
+| --- | --- |
+| `jo-engineering.svg` | JO Engineering — https://jo-eng.com/img/c_logo.svg (light-background original) |
+| `pusan-national-university.jpg` | User-supplied `로고영문_01_JPG_logo0501.zip`, `logo0501.jpg` (black original, unchanged) |
+
+The supplied gray `logo0601.jpg` includes a visible construction grid and is not
+used. Logo display widths are adjusted individually for optical balance.
+
